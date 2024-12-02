@@ -1,0 +1,16 @@
+[package]
+name = "saypyu"
+version = "0.1.0"
+edition = "2021"
+authors = ["NotAFlyingGoose"]
+license = "GPL-3.0-only"
+license-file = "LICENSE"
+description = "Making pronunciations simple to read and use with SaypYu"
+repository = "https://github.com/NotAFlyingGoose/saypyu"
+readme = "README.md"
+keywords = ["saypyu", "ipa", "pronunciation"]
+exclude = [
+    "ipa_to_saypyu.test",
+]
+
+[dependencies]

@@ -1,0 +1,252 @@
+### Tests for IPA to SaypYu conversion ###
+#
+# Examples from SaypYu related websites were taken and used
+# here for tests to ensure that the converter is working properly.
+#
+# Note that some of the SaypYu given in websites is contradictory,
+# and so these have been edited in order to be as logical and consistent as possible.
+# In these cases, the original SaypYu has been kept in parentheses.
+#
+# The format of a test is
+# "<english> <ipa> <saypyu> (<original saypyu>)"
+# there can be multiple "<ipa> <saypyu>" pairs per english word and
+# the last part is optional.
+#
+# The first site also has some slight very beneficial reforms to SaypYu.
+# You can read about these here:
+# https://www.scribd.com/document/196958655/Reforming-SaypYu-Next-Steps
+#
+### Start ###
+#
+### from https://www.scribd.com/document/196958386/SaypYu-Conversions
+apple ˈæpl apl ˈæpəl apɘl
+can kæn kan
+hat hæt hat
+plaid plæd plad
+ever ˈevər evɘr (ever)
+head hed hed
+get ɡet get
+said sed sed
+bed bed bed
+fell fel fel
+men men men
+any ˈeni enii (eni) # SaypYu /ii/ is the i in "pizza", SaypYu /i/ is the i in "ice cream"
+it ɪt it
+bog bɒɡ bog
+finishes ˈfɪnɪʃs finishs
+she ʃi shii (shi) # if it was /shi/, it would sound like "shit" without the t
+odd ɒd od
+hot hɒt hot
+waffle ˈwɒfəl wofɘl
+good ɡʊd gud
+book bʊk buk
+put pʊt put
+should ʃəd shɘd ʃʊd shud # both /ʃʊd/ and /ʃəd/ are pretty accurate pronunciations but the later is the only one that dictionaries give, even though the former is what the site shows
+room ruːm ruum rʊm rum # the first is american, the second is british (from the site)
+who huː huu (hu) # SaypYu /hu/ is like IPA /hʊ/. No one pronounces it like that
+through θruː thruu (thru) # same as above
+you jə yɘ juː yuu jʊ yu # I could actually only find one source that gave it as IPA /jʊ/
+shoe ʃuː shuu (shu)
+flew fluː fluu (flu)
+two tuː tuu (tu)
+blue bluː bluu (blu)
+up ʌp ɘp
+mother ˈmʌðər mɘdhɘr
+mud mʌd mɘd
+tough tʌf tɘf
+arm ɑːrm aarm
+father ˈfɑðər faadhɘr
+aha ɑːˈhɑː aahaa
+eat iːt iit
+see siː sii
+need niːd niid
+please pliːz pliiz (pliz) # the same thing as "any" above
+green ɡriːn griin
+ooze uːz uuz
+food fuːd fuud
+soup suːp suup
+sue suː suu
+early ˈɜːli urlii (urli) # see above
+bird bɜːd burd bøːd burd bœːd burd
+stirring ˈstɜːrɪŋ sturing
+I aɪ ai
+ice aɪs ais (aiz) # I'm pretty sure this is just a mistake by the website maker? No one gives it as IPA /aɪz/
+hide haɪd haid
+deny dɪˈnaɪ dinai
+fine faɪn fain
+aisle aɪl ail
+sight saɪt sait
+why waɪ wai
+bye baɪ bai
+lie laɪ lai
+buy baɪ bai
+guide ɡaɪd gaid
+aid eɪd eyd
+hate heɪt heyt
+day deɪ dey
+they ðeɪ dhey
+gray ɡreɪ grey
+great ɡreɪt greyt
+freight freɪt freyt
+résumé ˈrezjuːmeɪ rezyuumey ˈrezjʊmeɪ rezyumey (rezyumey)
+oil ɔɪl oyl
+choice tʃɔɪs tshoys (tshoyz) # the same thing as "ice" above, so strange
+toy tɔɪ toy
+noise nɔɪz noyz
+out aʊt out
+loud laʊd loud
+how haʊ hou
+house haʊs hous
+show ʃəʊ show
+sew səʊ sow
+snow snəʊ snow
+though ðəʊ dhow
+hello həˈləʊ hɘlow
+tow təʊ tow
+soap səʊp sowp
+owe əʊ ow
+road rəʊd rowd
+below bɪˈləʊ bilow
+mote məʊt mowt
+boat bəʊt bowt
+all ɔːl awl
+fall fɔːl fawl
+talk tɔːk tawk
+saw sɔː saw
+august ɔːˈɡʌst awgɘst
+thaw θɔː thaw
+bought bɔːt bawt
+door dɔːr door
+floor flɔːr floor
+pour pɔːr poor
+more mɔːr moor
+ear ɪə iir (ir) # for the same reason as "any" above, SaypYu /ii/ makes more sense here than SaypYu /i/
+hero ˈhɪərəʊ hiirow # same as above
+beer bɪə biir # same as above
+air eə ayr
+careful ˈkeəfəl kayrfɘl ˈkerfl kerfl (kayrful) # I couldn't find anyone giving it with an IPA /ʊ/ instead of IPA /ə/. the first is from longman and the second is from oxford (american pronunciation)
+wear weə wayr weər wayr
+mare meə mayr meər mayr
+their ðer dher ðeə dhayr ðeər dhayr # the one from the website (2) is the strong british pronunciation
+mayor meə mayr
+pure pjʊə pyur
+cure kjʊə kyur
+unite juːˈnaɪt yuunait jʊˈnaɪt yunait # i found the one with IPA /ʊ/ off to the side on wiktionary, so ig the website is semi-correct
+humid ˈhjuːmɪd hyuumid (hyumid) # i wasn't able to find it with IPA /ʊ/ anywhere
+few fjuː fyuu (fyu) # same as above
+ewe juː yuu (yu) # same as above (actually, i found one, but it was weird so i'm not including it)
+youth juːθ yuuth (yuth) # same as above (fr this time)
+eulogy ˈjuːlədʒi yuulɘjii (yuulɘji) # look at "any" above
+fire ˈfaɪər faiɘr
+tired ˈtaɪərd taiɘrd
+hour ˈaʊər ouɘr
+sour ˈsaʊər souɘr
+teacher ˈtiːtʃər tiitshɘr (tiishɘ) # probably a mistake
+after ˈæftər aftɘr (ɘftɘ) # i could not find a SINGLE pronunciation that started with a schwa
+murderer ˈmɜːdərə murdɘrɘ
+yes jes yes
+yacht jɒt yot
+equation ɪˈkweɪʒən ikweyjɘn
+pleasure ˈpleʒə plejɘ
+vision ˈvɪʒn vijn
+beige beɪʒ beyj
+shy ʃaɪ shai
+cash kæʃ kash
+emotion ɪˈməʊʃn imowshn
+china ˈtʃaɪnə tshainɘ
+catch kætʃ katsh
+giant ˈdʒaɪənt jaiɘnt
+badge bædʒ baj
+jam dʒæm jam
+loch lɒx lokh
+sang sæŋ sang
+sink sɪŋk singk (sink) # todo: should IPA /ŋk/ be converted to SaypYu /nk/?
+singer ˈsɪŋər singɘr
+thigh θaɪ thai
+maths mæθs maths
+thy ðaɪ dhai
+breathe briːð briidh
+father ˈfɑːðər faadhɘr
+### from saypyu.com (accessed through https://web.archive.org/web/20160402175957/http://saypyu.com/index.php on 12/1/24)
+# header
+welcome ˈwelkəm welkɘm
+to tuː tuu tʊ tu # idk what this is about to be honest (website is second)
+the ðə dhɘ
+spell spel spel
+as əz ɘz æz az # IPA /æz/ is the strong pronunciation
+you jʊ yu
+pronounce prəˈnaʊns prɘnouns (prɘnawns) # i think this was a change to SaypYu made by the first website and honestly I like it more
+universal ˌjuːnɪˈvɜːsl yuunivursl ˌjuːnɪˈvɜːrsl yuunivursl ˌjuːnəˈvɜːsəl yuunɘvursɘl (yunivɘɘrsɘl) # the removal of SaypYu /ɘɘ/ was an intentional choice made by the first website. It's much better. (1) & (2) < oxford. (3) < longman.
+alphabet ˈælfəbet alfɘbet
+project ˈprɒdʒekt projekt # todo: is this the IPA they meant?
+a ə ɘ
+parallel ˈpærəlel parɘlel
+practical ˈpræktɪkəl praktikɘl # longman and not oxford
+and ənd ɘnd (and)
+more mɔːr moor
+phonetic fəˈnetɪk fɘnetik
+spelling ˈspelɪŋ speling
+system ˈsɪstəm sistɘm
+# homepage conversions
+man mæn man
+pen pen pen
+kid kɪd kid
+put pʊt put
+top tɒp top
+agree əˈgriː ɘgrii
+run rʌn rɘn
+clever ˈklevər klevɘr
+media ˈmiːdiə miidiiɘ (miidiɘ) # idk if this was a mistake or something
+city ˈsɪti sitii (siti) # this might also be a mistake. SaypYu /i/ is NOT at the end of the word city (see "any" above)
+father ˈfɑːðər faadhɘr
+care keə kayr (keer) # maybe eə should be ay instead of ayr
+street striːt striit
+boot buːt buut
+dawn dɔːn dawn (doon) # this was a change by the first website (very good change btw)
+first fɜːrst furst (fɘɘrst) # another change by the first website
+bar bɑːr baar
+door dɔːr door
+site saɪt sait (sayt) # another good change by the first website
+out aʊt out (awt) # another good change by the first website
+same seɪm seym
+role rəʊl rowl
+toy tɔɪ toy
+cube kjuːb kyuub (kyub) # according to the website, the newest form is with the single u. I prefer that one but I'm not sure how to implement it and keep everything else the same.
+bed bed bed
+cat kæt kat
+center ˈsentər sentɘr
+check tʃek tshek
+debt det det
+friend frend frend
+get get get
+hi haɪ hai (hay) # another good change by the first website
+Jack dʒæk jak
+king kɪŋ king
+left left left
+men men men
+nice naɪs nais (nays) # another good change by the first website
+please pliːz pliiz
+Phillip ˈfɪlɪp filip # IPA is from Phillips - s at the end todo: this is wrong
+queen kwiːn kwiin
+rule ruːl ruul
+relation rɪˈleɪʃən rileyshɘn (releyshn) # i couldn't find a pronunciation that didn't start with IPA /rɪ/
+sleep sliːp sliip
+ship ʃɪp ship
+train treɪn treyn
+this ðɪs dhis
+thin θɪn thin
+very ˈveri verii (veri) # this seems like a mistake by SaypYu.com (see "any" above)
+west west west
+you jʊ yu
+six sɪks siks
+exact ɪgˈzækt igzakt
+zest zest zest
+loch lɒx lokh
+# random word page
+sere sɪər siir
+### custom tests
+acquire əˈkwaɪər ɘkwaiɘr
+put pʊt put
+rust rʌst rɘst
+crab kræb krab
+crustacean krʌˈsteɪʃən krɘsteyshɘn
