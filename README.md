@@ -28,7 +28,7 @@ These contradictions had to be reconciled in the most consistent and logical way
 
 Even so, if you do find something wrong, or just aren't certain about something, please [make an issue](https://github.com/NotAFlyingGoose/saypyu/issues)! I'd love to make this crate the best it can be for SaypYu 😄
 
-This crate does use a few reforms to SaypYu suggested by Phillip West as they greatly help in making SaypYu even more easily understandable and immediately usable to someone who knows nothing about it. If someone needs to learn what each pattern of letters means before they can use the alphabet, that defeats the entire purpose.
+This crate does use a few reforms to SaypYu suggested by Phillip West as they greatly help in making SaypYu even more easily understandable and immediately usable to people who know nothing about it. If one needs to learn what each pattern of letters means before they can even try to pronounce a word, that defeats the entire purpose.
 
 Sources:
 
