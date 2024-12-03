@@ -39,4 +39,4 @@ Sources:
 ## License
 
 This crate is distributed under the terms of the MIT license. See [LICENSE](./LICENSE) for details.
-Note that while this code has been made open-source, the rest of The Everything Dictionary remains ARR.
+Note that while this code has been made open-source, the rest of The Everything Dictionary codebase remains All Rights Reserved.
