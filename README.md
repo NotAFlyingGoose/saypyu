@@ -38,4 +38,5 @@ Sources:
 
 ## License
 
-This crate is distributed under the terms of the GNU GPLv3 license. See [LICENSE](./LICENSE) for details.
+This crate is distributed under the terms of the MIT license. See [LICENSE](./LICENSE) for details.
+Note that while this code has been made open-source, the rest of The Everything Dictionary remains ARR.
