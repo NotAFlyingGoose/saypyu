@@ -17,14 +17,16 @@ let result = saypyu::ipa_to_saypyu(ipa);
 assert_eq!(result, "krɘsteyshɘn");
 ```
 
-In case you're wondering, 'ɘ', called schwa, is the only special letter you need to know in SaypYu. It's pronounced like the first letter in the words "ago" and "about". Compare that to the IPA just above it and you'll see just how simple and useful SaypYu is!
+In case you're wondering, 'ɘ', called schwa, is the only special letter you need to know in SaypYu. It's pronounced like the first letter in the words "ago" and "about". Compare that to the extreme complexity of the IPA just above it and you'll see just how simple and useful SaypYu can be!
 
 The file [`ipa_to_saypyu.test`](./ipa_to_saypyu.test) is used for testing but also contains a good many different English words with their IPA and SaypYu pronunciations
 
 ## Notes
 
-There were three primary sources used in creating the map from IPA to SaypYu. These were all extrememly useful but even official sources were sometimes contradictory or illogical.
-This crate has been made to be as consistent and uniform as possible and as a result might disagree with some SaypYu found in the wild. Even so, if you find something wrong, or just aren't certain about something, please make an issue! I'd love to make this crate as good as possible 😄
+There were three primary sources used in creating the map from IPA to SaypYu. These were all extrememly useful but even official sources were sometimes contradictory or illogical (look at some of the comments in the test file I linked above to see what I'm talking about).
+These contradictions had to be reconciled in the most consistent and logical way possible, and as a result of this you might occasionally find an example of SaypYu in the wild that disagrees with what this crate thinks the SaypYu should be. There may be different opinions out there, but this crate is always consistent and always outputs the most logical pronunciation based on all the sources I have on SaypYu.
+
+Even so, if you do find something wrong, or just aren't certain about something, please [make an issue](https://github.com/NotAFlyingGoose/saypyu/issues)! I'd love to make this crate the best it can be for SaypYu 😄
 
 This crate does use a few reforms to SaypYu suggested by Phillip West as they greatly help in making SaypYu even more easily understandable and immediately usable to someone who knows nothing about it. If someone needs to learn what each pattern of letters means before they can use the alphabet, that defeats the entire purpose.
 
