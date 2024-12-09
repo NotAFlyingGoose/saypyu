@@ -145,6 +145,7 @@ pub fn ipa_to_saypyu(ipa: &str) -> String {
             'ŋ' => "ng", // done
             '(' => "(",
             ')' => ")",
+            '-' => "-",
             ' ' => " ",
             _ => continue,
         };
